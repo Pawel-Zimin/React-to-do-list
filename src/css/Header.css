@@ -1,0 +1,28 @@
+.header{
+   border: 2px solid #777;
+}
+
+button{
+   margin: 6px auto;
+   padding: 8px;
+   font-size: 16px;
+   border-radius: 12px;
+   outline: none;
+   transition: 0.4s;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: #777 !important;
+}
+
+.header__title{
+   padding-top: 6px;
+   font-size: 32px;
+}
+
+.header__taskInfo{
+   padding-bottom: 6px;
+   font-size: 20px;
+   font-weight: bold;
+}

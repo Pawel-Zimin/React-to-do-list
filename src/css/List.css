@@ -1,0 +1,17 @@
+.list{
+   list-style-type: none;
+   border: 2px solid #777;
+   overflow: hidden;
+}
+
+.listElement__text{
+   padding: 6px 0;
+   font-size: 18px;
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+.listElement__text:hover{
+   text-decoration: line-through;
+   background-color: #777;
+}
